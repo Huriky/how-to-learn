@@ -290,7 +290,7 @@
   background-color: #1f1f1f;
 }
 
-.footer__colums {
+.footer__columns {
   width: 90%;
   display: flex;
   justify-content: space-between;
@@ -298,12 +298,13 @@
   
 }
 
-.footer__colums_content_copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-basis: 711px;
   flex-direction: column;
   width: auto;
   padding: 0;
+  justify-content: space-between;
 }
 
 .logo_place_footer {
@@ -318,9 +319,10 @@
   font-size: 18px;
   font-weight: normal;
   margin: 0;
+  width: fit-content;
 }
 
-.footer__colums_content_info {
+.footer__column_content_info {
   display: flex;
   width: auto;
   flex-direction: column;
@@ -355,7 +357,7 @@
   align-items: center;
 }
 
-.footer__colums_content_social {
+.footer__column_content_social {
   width: auto;
   display: flex;
   flex-direction: column;
