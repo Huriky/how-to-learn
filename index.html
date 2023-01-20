@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body>
@@ -13,14 +12,14 @@
       <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Лого Яндекс Практикум">
       <h1 class="header__title" lang="ru">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-        <a class="header__link" href="#">Узнать →</a>
+        <a class="header__link" href="#" target="_blank">Узнать →</a>
       </p>
       <img class="header__main-illustration" src="./images/header-image.png" alt="Картинка на главной (Опять двойка)">
       <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <section class="description">
-        <div class="two-columns">
+        <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
@@ -28,7 +27,7 @@
               <span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
             <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
-        </div>
+        </article>
       </section>
       <section class="techniques">
         <h2 class="section-title">Техники обучения</h2>
@@ -65,11 +64,9 @@
         <h2 class="section-title">Видео нa TED</h2>
         <h3 class="section-subtitle">Для тех, кто любит прокрастинировать</h3>
         <div class="video__iframes">
-          <iframe class="video__iframe" id="ytplayer2" width="515" height="289"
-          src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen>
+          <iframe class="video__iframe" id="ytplayer2" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen>
           </iframe>
-          <iframe class="video__iframe" id="ytplayer3"  width="515" height="289"
-          src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen>
+          <iframe class="video__iframe" id="ytplayer3" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen>
           </iframe>
         </div>
       </section>
@@ -84,7 +81,7 @@
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
-        <a class="feynman__link" href="#">Подробнее →</a>
+        <a class="feynman__link" href="#" target="_blank">Подробнее →</a>
         <img class="feynman__img" src="./images/feynman.png" alt="Изображение Фейнмана">
       </section>
       <section class="digits">
@@ -129,15 +126,14 @@
       </section>
       <section class="khan">
         <div class="khan__container">
-          <h3 class="khan__author">Салман Хан</h3>
+          <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quoe">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
-          <h4 class="khan__quote-author">Джордж Лукас</h4>
-          <h5 class="khan__quote-author-subline">Кинорежиссер, продюсер</h5>
+          <p class="khan__quote">Страсть и новаторство Салман Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          <p class="khan__quote-author">Джордж Лукас</p>
+          <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img class="khan__book-pic" src="./images/khan-book.jpg" alt="картинка книги">
-            <a class="khan__buy-link" href="#">Купить книгу →</a>
-
+            <a class="khan__buy-link" href="#" target="_blank">Купить книгу →</a>
           </div>
         </div>
       </section>
@@ -191,20 +187,28 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <h3 class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</h3>
-        <div class="resources__logo-zone">
-          <a href="#" class="resources__link">
-            <img src="./images/logo/resources-arzamas.svg" alt="Лого Арзамаса">
-          </a>
-          <a href="#" class="resources__link">
-            <img src="./images/logo/resources-n1.svg" alt="Лого N+1">
-          </a>
-          <a href="#" class="resources__link">
-            <img src="./images/logo/resources-strelka.svg" alt="Лого Стрелки">
-          </a>
-          <a href="#" class="resources__link">
-            <img src="./images/logo/resources-polka.svg" alt="Лого Полки">
-          </a>
-        </div>
+        <ul class="resources__logo-zone">
+          <li class="resources__link">
+            <a href="#" target="_blank">
+              <img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Лого Арзамаса">
+            </a>
+          </li>
+          <li class="resources__link">
+            <a href="#" target="_blank">
+              <img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Лого N+1">
+            </a>
+          </li>
+          <li class="resources__link">
+            <a href="#" target="_blank" class="resources__link">
+              <img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Лого Стрелки">
+            </a>
+          </li>
+          <li class="resources__link">
+            <a href="#" target="_blank" class="resources__link">
+              <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Лого Полки">
+            </a>
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="footer">
@@ -214,28 +218,28 @@
         <p class="footer__author">© Huriky</p>
       </div>
       <nav class="footer__column footer__column_content_info">
-        <h5 class="footer__column-heading">О Практикуме</h5>
+        <h2 class="footer__column-heading">О Практикуме</h2>
         <ul class="footer__column-links">
-          <li> <a href="#" class="footer__column-link">Главная</a> </li>
-          <li> <a href="#" class="footer__column-link">Концепция</a> </li>
-          <li> <a href="#" class="footer__column-link">Наставники</a> </li>
+          <li> <a href="#" target="_blank" class="footer__column-link">Главная</a> </li>
+          <li> <a href="#" target="_blank" class="footer__column-link">Концепция</a> </li>
+          <li> <a href="#" target="_blank" class="footer__column-link">Наставники</a> </li>
         </ul>
       </nav>
       <nav class="footer__column footer__column_content_social">
-        <h5 class="footer__column-heading">Соцсети</h5>
+        <h2 class="footer__column-heading">Соцсети</h2>
         <ul class="footer__column-links">
           <li> 
-            <a href="#" class="footer__column-link">YouTube
+            <a href="#" target="_blank" class="footer__column-link">YouTube
               <img class="footer__social-icon" src="./images/youtube-icon.svg" alt="Иконка Ютуб"> 
             </a>
           </li>
           <li> 
-            <a href="#" class="footer__column-link">ВКонтакте
+            <a href="#" target="_blank" class="footer__column-link">ВКонтакте
               <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Иконка ВКонтакте">
             </a>  
           </li>
           <li> 
-            <a href="#" class="footer__column-link">TikTok
+            <a href="#" target="_blank" class="footer__column-link">TikTok
               <img class="footer__social-icon" src="./images/tiktok-icon.svg" alt="Иконка ТикТок"> 
             </a>  
           </li>
